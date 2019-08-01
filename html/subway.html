@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>서브웨이 주문하기</h1>
+    <p>주문서를 작성해주세요.</p>
+    <form action="">
+        <label for="name">이름:</label> 
+        <input id="name" type="text" name="name" placeholder="이름을 입력해주세요">
+
+        <label for="when">날짜:</label>
+        <input id="when" type="date" name="when" placeholder=>
+
+        <h3>1.샌드위치 선택</h3>
+        <p>
+            <input id="option1" type="radio" name="main" value="1"><label for="option1">에그마요</label> 
+        </p>
+        <p>
+            <input id="option2" type="radio" name="main" value="1"><label for="option2">비엘티</label> 
+        </p>
+        <p>
+            <input id="option3" type="radio" name="main" value="1"><label for="option3">터키</label> 
+        </p>
+        <hr>
+        <h3>2.사이즈 선택</h3>
+        <input name="size" type="number" name="size" value="15"min="15" max="30" step="15">
+        <input type="submit">
+        <hr>
+        <h3>3.빵</h3>
+        <select name="bread" id="">
+            <option value="1">허니오트</option>
+            <option value="2" disabled = true>플랫브래드</option>
+            <option value="3">하티 이탈리안</option>
+        </select>
+        <hr>
+        <h3>4.야채/소스</h3>
+        <input id="sub1" type="checkbox" name="sub" value="1"><label for="sub1">토마토</label><br>
+        <input id="sub2" type="checkbox" name="sub" value="1"><label for="sub2">오이</label><br>
+        <input id="sub3" type="checkbox" name="sub" value="1"><label for="sub3">할라피뇨</label><br>
+        <input id="sub4" type="checkbox" name="sub" value="1"><label for="sub4">핫 칠리</label><br>
+        <input id="sub5" type="checkbox" name="sub" value="1"><label for="sub5">바베큐</label><br>
+        <p></p>
+        <input type="submit">
+    </form>
+</body>
+</html>

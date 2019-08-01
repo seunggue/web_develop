@@ -1,0 +1,24 @@
+div {
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.half {
+    width: 50%;
+}
+.b {
+    display: block;
+}
+.i {
+    display: inline;
+}
+.bi {
+    display: inline-block;
+    margin-top: 20px;
+}
+.bg {
+    background-image: url(https://cphoto.asiae.co.kr/listimglink/1/2017072813523484896_2.png);
+}
+.text {
+    font-family: 'Saira Stencil One', cursive;
+}

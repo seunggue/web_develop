@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+}
+.blue{
+    position: static;
+    background-color: blue;
+}
+.red {
+    position: relative;
+    background-color: red; 
+    left: 50px;
+    bottom: 50px;
+}
+.green {
+    position: absolute;
+    background-color: green;
+    /* left: 50px;
+    top: 50px; */
+    right: 0px;
+    bottom: 0px;
+}
+.parent {
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
+.children {
+    background-color: pink;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+.yellow {
+    background-color: yellow;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div style="background-color: aqua;">
+        <form action="/search"> 
+            <div style="text-align: center" class="logo"><img src="https://attach.s.op.gg/logo/20190730135214.bb87673d92d8dff6a5de5c104187e4b4.png" alt=""></div>
+            <div class="form-group d-flex justify-content-center">
+                <!-- <label for="summoner">소환사명</label> -->
+                <input style="width:40%" type="text" class="form-control" id="summoner" name="summoner" placeholder="소환사명을 입력해주세요">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+    </div>
+{% endblock %}

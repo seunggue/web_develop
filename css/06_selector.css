@@ -1,0 +1,56 @@
+/*  *:모든엘리먼트 */
+/* * {
+    color: red;
+} */
+
+/*  태그셀렉터 */
+/* !important:우선순위를 1순위로 부여 */
+h1 {
+    color: red !important;
+}
+/* 그룹 */
+h1, h2 {
+    background-color: gray;
+}
+
+/* 클래스 */
+.class-selector {
+    color: blue;
+}
+
+/* 아이디 */
+#id-selector {
+    color: green;
+    background-color: blue;
+}
+
+/* 자식 셀렉터 */
+ul > li{
+    color: pink;
+}
+
+/* 바로뒤에 인접한 형제만 */
+P + li {
+    color: green;
+}
+/* 그 뒤로 쭉 형제 셀렉터 */
+p ~ li {
+    color: blue;
+}
+
+#grand1 > div {
+    color: red
+}
+#grand2 p {
+    background-color: aqua;
+}
+
+/* 모든 자식을 가져와서 그중에서 2번째 */
+#ssafy > p:nth-child(2) {
+    color: red
+}
+
+/* p태그 이후에 2번째 */
+#ssafy > p:nth-of-type(4) {
+    color: blue
+}
